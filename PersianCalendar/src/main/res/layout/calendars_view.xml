@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/calendars_tab_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/week_day_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/text_size_title"
+                tools:text="Calendar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|end"
+                android:gravity="end|right|center_vertical">
+
+                <ImageView
+                    android:id="@+id/today_icon"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:tint="?attr/colorAccent"
+                    app:srcCompat="@drawable/ic_restore_modified" />
+
+                <TextView
+                    android:id="@+id/today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/today"
+                    android:textColor="?attr/colorAccent"
+                    android:textSize="@dimen/text_size_title" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?attr/appDivider"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_item"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingTop="@dimen/padding_item"
+            android:showDividers="middle"
+            app:flexWrap="wrap"
+            app:justifyContent="center">
+
+            <LinearLayout
+                android:id="@+id/first_calendar_container"
+                android:layout_width="@dimen/owghatSize"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/owghatSize"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal|fill_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/first_calendar_date_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="4sp"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="32sp"
+                        tools:text="a" />
+
+                    <TextView
+                        android:id="@+id/first_calendar_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="@dimen/text_size_description"
+                        tools:text="a\nb" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/first_calendar_date_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/colorTextSecond"
+                    android:textSize="@dimen/text_size_description"
+                    tools:text="1/1/1990" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/second_calendar_container"
+                android:layout_width="@dimen/owghatSize"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/owghatSize"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal|fill_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/second_calendar_date_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="4sp"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="32sp"
+                        tools:text="a" />
+
+                    <TextView
+                        android:id="@+id/second_calendar_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="@dimen/text_size_description"
+                        tools:text="a\nb" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/second_calendar_date_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/colorTextSecond"
+                    android:textSize="@dimen/text_size_description"
+                    tools:text="1/1/1990" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/third_calendar_container"
+                android:layout_width="@dimen/owghatSize"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/owghatSize"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal|fill_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/third_calendar_date_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="4sp"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="32sp"
+                        tools:text="a" />
+
+                    <TextView
+                        android:id="@+id/third_calendar_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="?attr/colorTextNormal"
+                        android:textSize="@dimen/text_size_description"
+                        tools:text="a\nb" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/third_calendar_date_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/colorTextSecond"
+                    android:textSize="@dimen/text_size_description"
+                    tools:text="1/1/1990" />
+
+            </LinearLayout>
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <LinearLayout
+            android:id="@+id/extra_information_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_item">
+
+            <TextView
+                android:id="@+id/zodiac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorTextNormal"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_description" />
+
+            <TextView
+                android:id="@+id/moon_in_scorpio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/moonInScorpio"
+                android:textColor="?attr/colorTextNormal"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_description" />
+
+            <TextView
+                android:id="@+id/diff_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorTextNormal"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_description"
+                tools:text="@string/date_diff_text" />
+
+            <TextView
+                android:id="@+id/start_and_end_of_year_diff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/colorTextNormal"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/text_size_description"
+                tools:text="@string/date_diff_text" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/more_calendar"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/padding_item"
+            android:tint="?attr/colorAccent"
+            app:srcCompat="@drawable/ic_keyboard_arrow_down" />
+
+    </LinearLayout>
+
+</layout>

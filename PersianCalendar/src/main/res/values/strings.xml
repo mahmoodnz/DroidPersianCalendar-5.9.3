@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Global-->
+    <string name="app_name">تقویم فارسی 99</string>
+    <string name="widget_name">تقویم فارسی 99</string>
+    <string name="widget_mini_name">تقویم فارسی 99</string>
+    <string name="closeDrawer">Close</string>
+    <string name="openDrawer">Open</string>
+    <string name="accept">OK</string>
+    <string name="add">Add</string>
+    <string name="help">Help</string>
+    <string name="more">More</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- No need for translation, remove the section from your translation -->
+    <string name="about_developers_list" translatable="false">""</string>
+    <string name="about_designers_list" translatable="false">""</string>
+    <string name="about_contributors_list" translatable="false">""</string>
+    <string name="about_help_subtitle" translatable="false">""</string>
+    <string name="about_help_sum" translatable="false">"این برنامه به صورت رایگان و متن‌باز نوشته شده‌است و سورس کد اصلی آن را می‌توانید از https://github.com/persian-calendar/DroidPersianCalendar دریافت کنید.
+نسخه اصلی سورس برنامه
+https://github.com/persian-calendar/DroidPersianCalendar
+سورس نسخه ویرایش شده تقویم فارسی 99
+https://github.com/mahmoodnz/mp73
+نسخه اصلی برنامه در بازار
+https://cafebazaar.ir/app/com.byagowi.persiancalendar
+نسخه ویرایش شده برنامه در بازار
+https://cafebazaar.ir/app/com.qoqnouse.persiancalendar
+توضیح در رابطه با مجوز سورس برنامه:
+مجوز جی‌پی‌ال۳ تقریباً به این معنی است که سورس برنامهٔ آپدیت شده را به صورت عمومی منتشر کرده و لینک آن را هم به شکل واضحی قرار دهید، تقریباً مشابه به شیوه‌ای که سورس را در ابتدا دریافت کرده‌اید،  https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3) اینجا توضیحات ساده‌ای در این رابطه آمده است."</string>
+    <string name="capricorn_emoji" translatable="false">♑</string>
+    <string name="aquarius_emoji" translatable="false">♒</string>
+    <string name="pisces_emoji" translatable="false">♓</string>
+    <string name="aries_emoji" translatable="false">♈</string>
+    <string name="taurus_emoji" translatable="false">♉</string>
+    <string name="gemini_emoji" translatable="false">♊</string>
+    <string name="cancer_emoji" translatable="false">♋</string>
+    <string name="leo_emoji" translatable="false">♌</string>
+    <string name="virgo_emoji" translatable="false">♍</string>
+    <string name="libra_emoji" translatable="false">♎</string>
+    <string name="scorpio_emoji" translatable="false">♏</string>
+    <string name="sagittarius_emoji" translatable="false">♐</string>
+
+    <!--Navigation drawers-->
+    <string name="calendar">Calendar</string>
+    <string name="date_converter">Date Converter</string>
+    <string name="compass">Compass</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <!--Calendar-->
+    <string name="add_event">Add event</string>
+    <string name="device_calendar_does_not_support">Device calendar does not support the action</string>
+    <string name="today">Today</string>
+    <string name="goto_date">Go to date</string>
+    <string name="go">Go</string>
+
+    <string name="search_in_events">Search in events</string>
+
+    <string name="date_diff_text">Distance: %s days (~%s years and %s months and %s days)</string>
+    <string name="start_of_year_diff">%s days (~%s weeks or %s months) from start of the year</string>
+    <string name="end_of_year_diff">%s days (~%s weeks or %s months) to end of the year</string>
+    <string name="date_copied_clipboard">Copied to clipboard</string>
+    <string name="year_name">Year name</string>
+    <string name="year1">Monkey</string>
+    <string name="year2">Rooster</string>
+    <string name="year3">Dog</string>
+    <string name="year4">Pig</string>
+    <string name="year5">Rat</string>
+    <string name="year6">Ox</string>
+    <string name="year7">Tiger</string>
+    <string name="year8">Rabbit</string>
+    <string name="year9">Dragon</string>
+    <string name="year10">Snake</string>
+    <string name="year11">Horse</string>
+    <string name="year12">Sheep</string>
+
+    <string name="zodiac">Zodiac</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="moonInScorpio">Moon is in Scorpio</string>
+
+    <string name="events">Events</string>
+    <string name="no_event">No event or appointment is found for this day.</string>
+    <string name="warn_if_events_not_set">To select and show holidays and events you like, go to the settings</string>
+
+    <string name="sunrise">Sunrise</string>
+    <string name="midday">Midday</string>
+    <string name="sunset">Sunset</string>
+    <string name="length_of_day">Daytime: %sh %sm</string>
+    <string name="remaining_daylight">Remaining: %sh %sm</string>
+    <string name="owghat">Pray times</string>
+    <string name="imsak">Imsak</string>
+    <string name="azan1">Fajr</string>
+    <string name="aftab1">Sunrise</string>
+    <string name="azan2">Dhuhr</string>
+    <string name="azan3">Asr</string>
+    <string name="aftab2">Sunset</string>
+    <string name="azan4">Maghrib</string>
+    <string name="azan5">Isha</string>
+    <string name="aftab3">Midnight</string>
+
+    <!--Date Converter-->
+    <string name="select_type_date">Select date type</string>
+    <string name="year">Year</string>
+    <string name="select_year">Select year</string>
+    <string name="month">Month</string>
+    <string name="select_month">Select month</string>
+    <string name="day">Day</string>
+    <string name="select_day">Select day</string>
+    <string name="date_exception">The date you entered was not valid!</string>
+
+    <!--Compass-->
+    <string name="compass_not_found">Compass sensor not found</string>
+    <string name="calibrate_compass_summary">For improving compass sensor accuracy move the phone away from any magnetic objects, tilt and rotate the device back and forth on every axis.</string>
+    <string name="level">Level</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="set_location">In order to have Sun and Moon location, and Qibla direction, set the location in the settings</string>
+
+    <!-- Settings -->
+    <string name="pref_header_interface_calendar">Interface and Calendar</string>
+    <string name="pref_header_widget_location">Widget and Notification</string>
+    <string name="pref_header_location_athan">Location and Athan</string>
+
+    <!--Interface and Calendar Settings-->
+    <string name="pref_interface">Interface</string>
+    <string name="language">Language</string>
+    <string name="skin">Skin</string>
+    <string name="select_skin">Select a skin</string>
+    <string name="persian_digits">Persian Digits</string>
+    <string name="enable_persian_digits">Enable Persian Digits</string>
+
+    <string name="events_summary">Events to show</string>
+    <string name="show_device_calendar_events">Personal Calendar Events</string>
+    <string name="show_device_calendar_events_summary">Show personal calendar events</string>
+    <string name="calendars_priority">Calendars Priority</string>
+    <string name="calendars_priority_summary">Set calendars to show priority or hide them</string>
+    <string name="astronomical_info">Astronomical Information</string>
+    <string name="astronomical_info_summary">Show additional information like constellation, years names and moon in scorpio</string>
+    <string name="week_of_year">Week of Year</string>
+    <string name="week_of_year_summary">Show week of year on calendar</string>
+    <string name="week_start">Week Start</string>
+    <string name="week_start_summary">Select week start day</string>
+    <string name="week_ends">Weekends</string>
+    <string name="week_ends_summary">Select weekends days</string>
+    <string name="islamic_offset">Islamic offset</string>
+    <string name="islamic_offset_summary">Adjust Islamic calendar by adding a number</string>
+    <string name="clock_in_24">Clock in 24 hour</string>
+    <string name="showing_clock_in_24">Show the clock in 24 hour</string>
+
+    <!--Widget and Notification Settings-->
+    <string name="widget_text_color">Widget Text Color</string>
+    <string name="select_widgets_text_color">Select custom color for widgets texts</string>
+    <string name="clock_on_widget">Clock on the Widget</string>
+    <string name="showing_clock_on_widget">Show the clock on widget</string>
+    <string name="iran_time">Iran Time</string>
+    <string name="showing_iran_time">Widgets and notifications in Iran TimeZone</string>
+    <string name="customize_widget">Widget Customization</string>
+    <string name="which_one_to_show">Which one to show</string>
+    <string name="customize_widget_summary">What to show from notification and widges to make them more compact</string>
+    <string name="notify_date">Enable Date Notification</string>
+    <string name="enable_notify">Persistent notification for all date types</string>
+    <string name="notify_date_lock_screen">Show notification on the lock screen</string>
+    <string name="notify_date_lock_screen_summary">Only when a lock screen security method is set.</string>
+
+    <!--Location and Athan-->
+    <string name="gps_location">Get location from GPS or network</string>
+    <string name="gps_location_help">Other options are not needed if this is possible</string>
+    <string name="gps_internet_desc">"Enable device's GPS and Internet connection to find your location, please.
+
+The app needs this only once, however, if you move to a new location, accessing to GPS and Internet is needed again."</string>
+    <string name="pleasewaitgps">Please wait… If nothing appeared after one minute you probably should try other options</string>
+    <string name="location">Location</string>
+    <string name="location_help">If none of them, specify it below</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="altitude_praytime">in meter (optional)</string>
+
+    <string name="athan">Athan</string>
+    <string name="in_city_time">in</string>
+    <string name="pray_methods">Calculation methods</string>
+    <string name="pray_methods_calculation">Calculation methods for pray times and Qibla compass</string>
+    <string name="athan_gap">Athan Gap</string>
+    <string name="athan_gap_summary">How long ahead of the Athan should the alarm be triggered (in minutes)</string>
+    <string name="athan_alarm">Athan Alarm</string>
+    <string name="athan_alarm_summary">Prayers to trigger the alarm for</string>
+    <string name="notification_athan">Athan Notification</string>
+    <string name="enable_notification_athan">Show Athan as a notification and device vibration</string>
+    <string name="custom_athan">Select Athan</string>
+    <string name="default_athan_name">Abdul-Basit Abdel-Samad</string>
+    <string name="custom_notification_is_set">Custom notification is just set</string>
+
+    <string name="default_athan">Default Athan</string>
+    <string name="default_athan_summary">Return to default Athan</string>
+    <string name="returned_to_default">Returned to default</string>
+    <string name="athan_volume">Athan Volume</string>
+    <string name="athan_volume_summary">Set the volume for the alarm</string>
+
+    <string name="athan_disabled_summary">To set the Athan alarm, choose a location or enter the coordinates above</string>
+
+    <!--About-->
+    <string name="gpl_logo">GPL Logo</string>
+    <string name="version">Version %s</string>
+    <string name="about_license">License</string>
+    <string name="about_license_title">Application License</string>
+    <string name="about_license_sum">Check GPL3 License and other license terms used on Persian Calendar.</string>
+    <string name="about_license_dialog_close">Close</string>
+
+    <string name="about_support_developers"></string>
+    <string name="about_report_bug"></string>
+    <string name="about_report_bug_sum"></string>
+    <string name="about_sendMail"></string>
+    <string name="about_email_sum"></string>
+    <string name="about_noClient">No email client is installed</string>
+    <string name="about_developers"></string>
+
+    <!-- New additions, to be categorized, keep the section on your translation -->
+    <string name="empty" />
+
+</resources>
